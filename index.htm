@@ -1,5 +1,37 @@
 ﻿<!DOCTYPE html>
 <html>
+	<!-- Anti-flicker snippet (recommended)  -->
+   <style>.async-hide { opacity: 0 !important} </style>
+   <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+      h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+      (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+      })(window,document.documentElement,'async-hide','dataLayer',4000,
+      {'GTM-NSR9XLF':true});
+   </script>
+   <!-- Google Tag Manager -->
+   <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+      f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-NJ3G55L');
+   </script>
+   <!-- End Google Tag Manager -->
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-128373234-1"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-128373234-1', { 'optimize_id': 'GTM-NSR9XLF'});
+   </script>
   <head>
     <meta charset="utf-8">
     <title>Кредитная история онлайн</title>
@@ -26,7 +58,7 @@
         <h1>Кредитная история онлайн</h1>
         <h2>Заказав отчёт по кредитной истории Вы узнаете:<br> о наличии скрытых просрочек, ошибок, мошеннических действий, <br> вероятность одобрения и причины банковских отказов</h2>
         <!--<h2>Получите свой кредитный рейтинг, <br/>оцените состояние Вашей кредитной истории и узнайте,<br/>на каких условиях Вам одобрят кредит</h2>-->
-        <p><a class="nav-link btn btn-success btn-lg" href="#forms">Получить кредитную историю  <span class="glyphicon glyphicon-list-alt"></span></a></p>
+        <p><a class="nav-link btn btn-success btn-lg" href="#frame">Получить кредитную историю  <span class="glyphicon glyphicon-list-alt"></span></a></p>
 		
        
 		 <small>* Актуальная информация содержащая данные более чем о 300 банках России в 16 каталогах кредитных историй<br></small>
@@ -220,7 +252,7 @@ if(canHover) {
 		<p> <span class="glyphicon glyphicon-ok ln1-gl"></span> Результат проверки паспортных данных - не числится ли паспорт в &laquo;черном&raquo; списке.</p>
         <p> <span class="glyphicon glyphicon-star-empty ln1-gl"></span> Анализ состояния кредитной истории и персональные рекомендации по получению максимальной суммы.</p>
         <br><br>
-        <p class="row text-center"><a href="#forms" class="btn btn-success btn-lg nav-link">Получить кредитную историю <span class="glyphicon glyphicon-list-alt"></span></a></p>
+        <p class="row text-center"><a href="#frame" class="btn btn-success btn-lg nav-link">Получить кредитную историю <span class="glyphicon glyphicon-list-alt"></span></a></p>
        
         <br>
       </div> <!-- /.row --> 
